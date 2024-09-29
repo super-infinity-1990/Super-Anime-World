@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('WiiU') == -1) { 
+//If the UserAgent is not "Nintendo Wii-U"
+alert('YOU ARE NOT USING A WII-U!!!!!!!!!!!');
+location.replace('http://superanimeworld.net46.net/surprise/trulyloveoffaces/inyourface(pt).swf'); //Redirect
+}
+</script>
+<title>Stop!</title>
+</head>
+<body>
+<h2>You must watch this video in order for your Wii-U to load Homebrew!</h2>
+<p>    <video id="locked" controls="controls">
+        <source src="etdf.mp4" type="video/mp4">
+    </video></p>
+<script type='text/javascript'>
+    document.getElementById('locked').addEventListener('ended', function(e) {
+     setTimeout(function() {window.location = "http://wiiu.insanenutter.com/" });
+    });
+</script>
+</body>
+</html>

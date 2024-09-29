@@ -1,0 +1,245 @@
+body {
+text-align: center;
+background-color: pink;
+}
+#surprisebox {
+text-align: center;
+margin-left:34%;
+width: 400px;
+height:270px;
+background-color: #ff239a;
+background-image: url(http://1.bp.blogspot.com/-JNDX-PXcO50/UsmEm55oTPI/AAAAAAAAToU/2_d46dDTvyk/s1600/pinkcutecglittertile.gif);
+background-position: center center;
+border: 5px groove black;
+}
+#surprisepopupbox {
+border: 5px solid #338da6;
+padding: 2px;
+background: #4fd9ff none repeat scroll 0% 50%;
+position: fixed;
+text-align: center;
+top: 0px;
+left: 0px;
+}
+.sponsors {
+background-color: white;
+color: black;
+}
+.nocopy {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+#hello {
+border: 5px groove black;
+background-color: white;
+width: 100px;
+height: 100px;
+margin-left: auto;
+margin-top: -100px;
+margin-right: 50px;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 11px;
+color: #3333ff;
+}
+.close{
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating,.roblok,.rot,.rok {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+.roblok,.rok{display:inline-block;}
+ 
+@-webkit-keyframes trembling {
+  0% {
+    left:-4px;top:2px;
+  }
+  25% {
+   left:4px;top:-2px;
+  }
+  50% {
+  left:2px;top:-4px;
+  }
+  75% {
+  left:-2px;top:4px;
+  }
+  100% {
+  left:8px;top:8px;
+  }
+}
+@keyframes trembling {
+  0% {
+    left:-4px;top:2px;
+  }
+  25% {
+   left:4px;top:-2px;
+  }
+  50% {
+  left:2px;top:-4px;
+  }
+  75% {
+  left:-2px;top:4px;
+  }
+  100% {
+  left:8px;top:8px;
+  }
+}
+.trembling,.shaking,.trm,.shk {
+    position:relative;
+  -webkit-animation: trembling 0.1s cubic-bezier(0,.5,.5,1) infinite;
+  -moz-animation: trembling 0.1s cubic-bezier(0,.5,.5,1) infinite;
+  -ms-animation: trembling 0.1s cubic-bezier(0,.5,.5,1) infinite;
+  -o-animation: trembling 0.1s cubic-bezier(0,.5,.5,1) infinite;
+  animation: trembling 0.1s cubic-bezier(0,.5,.5,1) infinite;
+}
+ 
+@-webkit-keyframes circling {
+  0% {
+    left:0px;top:-4px;
+  }
+  11% {
+   left:-3px;top:-3px;
+  }
+  22% {
+  left:-4px;top:0px;
+  }
+  33% {
+  left:-3px;top:3px;
+  }
+  44% {
+  left:0px;top:4px;
+  }
+  55% {
+    left:3px;top:3px;
+  }
+  66% {
+   left:-3px;top:-3px;
+  }
+  77% {
+  left:4px;top:0px;
+  }
+  88% {
+  left:3px;top:-3px;
+  }
+  100% {
+    left:0px;top:-4px;
+  }
+}
+@keyframes circling {
+  0% {
+    left:0px;top:-4px;
+  }
+  11% {
+   left:-3px;top:-3px;
+  }
+  22% {
+  left:-4px;top:0px;
+  }
+  33% {
+  left:-3px;top:3px;
+  }
+  44% {
+  left:0px;top:4px;
+  }
+  55% {
+    left:3px;top:3px;
+  }
+  66% {
+   left:-3px;top:-3px;
+  }
+  77% {
+  left:4px;top:0px;
+  }
+  88% {
+  left:3px;top:-3px;
+  }
+  100% {
+    left:0px;top:-4px;
+  }
+ 
+}
+.circling,.cir,.crc {
+    position:relative;
+    left:0px;
+    top:-4px;
+  -webkit-animation: circling 1s linear infinite;
+  -moz-animation: circling 1s linear infinite;
+  -ms-animation: circling 1s linear infinite;
+  -o-animation: circling 1s linear infinite;
+  animation: circling 1s linear infinite;
+}
+.blink {
+  -webkit-animation-name: toggle;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: toggle;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: toggle;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes toggle {
+         from {
+            visibility:hidden;
+         }
+     50% {
+            visibility:hidden;
+         }
+     to {
+            visibility:visible;
+      }
+ }
+@-webkit-keyframes toggle {
+         from {
+            visibility:hidden;
+         }
+     50% {
+            visibility:hidden;
+         }
+     to {
+            visibility:visible;
+      }

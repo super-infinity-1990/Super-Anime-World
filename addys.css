@@ -1,0 +1,16 @@
+body {
+font-family: rako_font;
+font-size: 21px;
+text-align: center;
+}
+#addys {
+border: 3px solid purple;
+font-family: Arial,Helvetica,sans-serif;
+background-position: center center;
+background-color: black;
+color: gold;
+margin-left: 20%;
+background-image: url(http://c0427241.cdn.cloudfiles.rackspacecloud.com/43b6b1c35afba9f2a52da49dacfefefc);
+width: 700px;
+height: 150px;
+}
