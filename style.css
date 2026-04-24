@@ -1,3 +1,5 @@
+@import url('fonts/Diskun___Version_2_by_DarkAngelX.ttf');
+
 body {
 text-align: center;
 background-color: pink;
@@ -25,6 +27,15 @@ left: 0px;
 background-color: white;
 color: black;
 }
+
+.diskun {
+  font-family: 'Diskun', sans-serif;
+  font-size: 55px;
+  color: black;
+  background-color: yellow;
+}
+
+
 .nocopy {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
